@@ -1,0 +1,51 @@
+/* frontend/src/App.css */
+.chat-list {
+  margin-top: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.chat-bubble {
+  padding: 12px 18px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-break: break-word;
+  
+  &.user {
+    background: #1890ff;
+    color: white;
+    margin-left: auto;
+  }
+  
+  &.bot {
+    background: #f0f0f0;
+    margin-right: auto;
+  }
+  
+  .tag {
+    font-size: 0.8em;
+    color: #666;
+    margin-right: 8px;
+  }
+}
+
+.ant-upload-drag-icon {
+  color: #1890ff !important;
+}
+
+
+/* frontend/src/App.css */
+.ant-modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-upload-drag {
+  margin-bottom: 24px;
+}
+
+iframe {
+  flex-grow: 1;
+  min-height: 500px;
+  background: #f0f2f5;
+}
